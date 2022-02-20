@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <a href="./">WebStudio</a>
-      <nav>
+    <header class="header">
+      <a href="./" class="logo">WebStudio</a>
+      <nav class="nav">
         <ul>
           <li><a href="">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
+          <li><a href="portfolio.html">Портфолио</a></li>
           <li><a href="">Контакты</a></li>
         </ul>
       </nav>
@@ -56,54 +56,60 @@
       </section>
       <!-- section3 -->
       <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
-          <li>
-            <img src="./images/box1.jpg" alt="Графика" width="370" height="300" />
-          </li>
-          <li>
-            <img src="./images/box2.jpg" alt="Доступность" width="370" height="300" />
-          </li>
-          <li>
-            <img src="./images/box3.jpg" alt="Палитра" width="370" height="300" />
-          </li>
-        </ul>
+        <div class="box">
+          <h2 class="box-title">Чем мы занимаемся</h2>
+          <ul>
+            <li>
+              <img src="./images/box1.jpg" alt="Графика" width="370" height="300" />
+            </li>
+            <li>
+              <img src="./images/box2.jpg" alt="Доступность" width="370" height="300" />
+            </li>
+            <li>
+              <img src="./images/box3.jpg" alt="Палитра" width="370" height="300" />
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- section 4-->
       <section>
-        <h2>Наша команда</h2>
-        <ul>
-          <li>
-            <img src="./images/product.jpg" alt="Дизайнер" width="270" height="260" />
-            <h3>Игорь Демьяненко</h3>
-            <p lang="en">Product Designer</p>
-          </li>
-          <li>
-            <img src="./images/frontend.jpg" alt="Фронтенд" width="270" height="260" />
-            <h3>Ольга Репина</h3>
-            <p lang="en">Frontend Developer</p>
-          </li>
-          <li>
-            <img src="./images/marketing.jpg" alt="Маркетинг" width="270" height="260" />
-            <h3>Николай Тарасов</h3>
-            <p lang="en">Marketing</p>
-          </li>
-          <li>
-            <img src="./images/ul.jpg" alt="Дизайнер" width="270" height="260" />
-            <h3>Михаил Ермаков</h3>
-            <p lang="en">UI Designer</p>
-          </li>
-        </ul>
+        <div class="team">
+          <h2 class="team-our">Наша команда</h2>
+          <ul class="teams">
+            <li>
+              <img src="./images/product.jpg" alt="Дизайнер" width="270" height="260" />
+              <h3>Игорь Демьяненко</h3>
+              <p lang="en">Product Designer</p>
+            </li>
+            <li class="team-second">
+              <img src="./images/frontend.jpg" alt="Фронтенд" width="270" height="260" />
+              <h3>Ольга Репина</h3>
+              <p lang="en">Frontend Developer</p>
+            </li>
+            <li class="team-the-third">
+              <img src="./images/marketing.jpg" alt="Маркетинг" width="270" height="260" />
+              <h3>Николай Тарасов</h3>
+              <p lang="en">Marketing</p>
+            </li>
+            <li class="team-fourth">
+              <img src="./images/ul.jpg" alt="Дизайнер" width="270" height="260" />
+              <h3>Михаил Ермаков</h3>
+              <p lang="en">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!-- Footer -->
-    <footer>
-      <a href="./">WebStudio</a>
-      <address>
+    <footer class="footer">
+      <a href="./" class="logo">WebStudio</a>
+      <address class="footer-content">
         <ul>
-          <li>г. Киев, пр-т Леси Украинки, 26</li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111"> + 38 096 111 11 11</a></li>
+          <li class="footer-content-address">г. Киев, пр-т Леси Украинки, 26</li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="footer-content-mail">info@devstudio.com</a>
+          </li>
+          <li><a href="tel:+380961111111" class="footer-content-tel"> + 38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>
