@@ -1,6 +1,6 @@
 /* index.html */
 :root {
-  --primare-text-color: #757575;
+  --contacts-text-color: #757575;
   --header-styles-color: #212121;
   --accent-color: #2196f3;
   --primare-text-color: #ffffff;
@@ -12,8 +12,8 @@
   background-color: #e5e5e5;
   color: var(--primare-text-color);
 }
-.list {
-  list-style: none;
+li {
+  list-style-type: none;
 }
 a {
   text-decoration: none;
@@ -31,10 +31,10 @@ a {
 .logo-studio {
   color: #000000;
 }
-.site-nav link:hover {
-  color: var(--header-styles-color);
-}
-.site-nav link:focus {
+.site-nav link:hover,
+.site-nav link:focus,
+.contacts link:hover,
+.contacts link:focus {
   color: var(---accent-color);
 }
 .link {
@@ -46,12 +46,13 @@ a {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.contacts {
+.contacts-tel .contacts-mail {
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: var(--primare-text-color);
+  color: var(--contacts-text-color);
 }
 .services {
   background-color: #2f303a;
@@ -59,7 +60,7 @@ a {
   height: 600px;
 }
 .services-text {
-  color: #ffffff;
+  color: var(--primare-text-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -124,6 +125,7 @@ a {
   color: #ffffff;
 }
 .footer-content-mail .footer-content-tel {
+  text-decoration: none;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
