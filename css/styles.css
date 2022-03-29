@@ -1,7 +1,7 @@
 /* index.html */
 :root {
   --primare-text-color: #757575;
-  --title-text-color: #212121;
+  --header-styles-color: #212121;
   --accent-color: #2196f3;
   --primare-text-color: #ffffff;
   --beckground-second: #2f303a;
@@ -35,7 +35,7 @@ a {
   color: var(---accent-color);
 }
 .site-nav link :focus {
-  color: var(--title-text-color);
+  color: var(--header-styles-color);
 }
 .link {
   text-decoration: none;
@@ -44,7 +44,7 @@ a {
   line-height: 16px;
 }
 .contacts {
-  color: var(-primare-text-color);
+  color: var(--primare-text-color);
 }
 .services {
   background-color: #2f303a;
@@ -68,6 +68,7 @@ a {
   top: 430px;
 }
 .header-styles {
+  color: var(--header-styles-color);
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -81,6 +82,7 @@ a {
   letter-spacing: 0.03em;
 }
 .header {
+  color: var(--header-styles-color);
   font-size: 36px;
   line-height: 42px;
 }
@@ -89,6 +91,7 @@ a {
 }
 
 .team-header {
+  color: var(--header-styles-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
