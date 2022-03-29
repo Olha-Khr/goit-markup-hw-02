@@ -31,19 +31,26 @@ a {
 .logo-studio {
   color: #000000;
 }
-.site-nav link :hover {
-  color: var(---accent-color);
-}
-.site-nav link :focus {
+.site-nav link:hover {
   color: var(--header-styles-color);
 }
+.site-nav link:focus {
+  color: var(---accent-color);
+}
 .link {
+  color: var(--header-styles-color);
   text-decoration: none;
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: var(--primare-text-color);
 }
 .services {
