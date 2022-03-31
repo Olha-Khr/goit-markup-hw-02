@@ -8,7 +8,6 @@
 }
 .body {
   font-family: 'Roboto', sans-serif;
-  /* color: #212121; */
   background-color: #e5e5e5;
   color: var(--primare-text-color);
 }
@@ -31,10 +30,8 @@ a {
 .logo-studio {
   color: #000000;
 }
-.site-nav link:hover,
-.site-nav link:focus,
-.contacts link:hover,
-.contacts link:focus {
+.link:focus,
+.link:hover {
   color: var(---accent-color);
 }
 .link {
@@ -47,12 +44,13 @@ a {
   letter-spacing: 0.02em;
 }
 .contacts-tel .contacts-mail {
+  color: var(--contacts-text-color);
   text-decoration: none;
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: var(--contacts-text-color);
 }
 .services {
   background-color: #2f303a;
@@ -110,6 +108,7 @@ a {
   font-size: 16px;
   line-height: 19px;
 }
+/* --------------------------footer */
 .footer {
   background-color: #2f303a;
   font-family: Roboto;
@@ -130,7 +129,6 @@ a {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
 }
 
 /* portfolio */
