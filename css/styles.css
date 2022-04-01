@@ -11,12 +11,13 @@
   background-color: #ffffff;
   color: var(--primare-text-color);
 }
-li {
+.list {
   list-style-type: none;
 }
 a {
   text-decoration: none;
 }
+/* _______logo___________________ */
 .logo {
   font-family: 'Raleway';
   font-weight: 700;
@@ -30,14 +31,14 @@ a {
 .logo-studio {
   color: #000000;
 }
-.link:focus,
-.link:hover {
-  color: var(---accent-color);
+
+.site-nav .link:focus,
+.site-nav .link:hover {
+  color: #2196f3;
 }
 .link {
   color: var(--header-styles-color);
   text-decoration: none;
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
