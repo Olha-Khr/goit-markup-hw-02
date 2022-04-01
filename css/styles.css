@@ -8,7 +8,7 @@
 }
 .body {
   font-family: 'Roboto', sans-serif;
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   color: var(--primare-text-color);
 }
 li {
@@ -44,7 +44,7 @@ a {
   letter-spacing: 0.02em;
 }
 .contacts-tel .contacts-mail {
-  color: var(--contacts-text-color);
+  color: #757575;
   text-decoration: none;
   font-family: 'Roboto';
   font-weight: 500;
