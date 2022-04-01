@@ -19,7 +19,7 @@ a {
 }
 /* _______logo___________________ */
 .logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1, 19;
   text-decoration: none;
@@ -48,7 +48,6 @@ a {
 .contacts .link {
   color: var(--contacts-text-color);
   text-decoration: none;
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 14;
