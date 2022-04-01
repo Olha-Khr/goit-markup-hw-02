@@ -33,8 +33,10 @@ a {
 }
 
 .site-nav .link:focus,
-.site-nav .link:hover {
-  color: #2196f3;
+.site-nav .link:hover,
+.contacts .link:focus,
+.contacts .link:hover {
+  color: var(--accent-color);
 }
 .link {
   color: var(--header-styles-color);
@@ -44,8 +46,8 @@ a {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.contacts-tel .contacts-mail {
-  color: #757575;
+.contacts .link {
+  color: var(--contacts-text-color);
   text-decoration: none;
   font-family: 'Roboto';
   font-weight: 500;
@@ -126,8 +128,7 @@ a {
 }
 .footer-content-mail .footer-content-tel {
   text-decoration: none;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 1, 2;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
