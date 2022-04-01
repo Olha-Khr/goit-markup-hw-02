@@ -127,9 +127,6 @@ a {
   letter-spacing: 0.03em;
 }
 /* -----------all----------- */
-.services-all {
-  position: absolute;
-}
 .services-all-header {
   letter-spacing: 0.06em;
   color: var(--header-styles-color);
