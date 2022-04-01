@@ -111,6 +111,35 @@ a {
   font-size: 16px;
   line-height: 19px;
 }
+
+/* portfolio */
+
+/* --------------button-------- */
+.button-act:hover,
+.button-act:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
+.services-all {
+  width: 1170px;
+  height: 1360px;
+  left: 215px;
+  top: 140px;
+}
+.services-all-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--header-styles-color);
+}
+.services-all-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--contacts-text-color);
+}
 /* --------------------------footer */
 .footer {
   background-color: #2f303a;
@@ -135,4 +164,3 @@ a {
 .footer-content {
   font-style: normal;
 }
-/* portfolio */
