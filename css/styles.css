@@ -21,8 +21,10 @@ a {
 .logo {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   text-decoration: none;
+  font-size: 26px;
+  letter-spacing: 0.03em;
 }
 .logo-web {
   color: var(--accent-color);
@@ -42,7 +44,7 @@ a {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .contacts .link {
@@ -50,7 +52,7 @@ a {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 /* _______services_______________ */
@@ -61,8 +63,13 @@ a {
   color: var(--primare-text-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.36;
 }
+.button:focus,
+.button:hover {
+  background-color: #188ce8;
+}
+
 .button {
   background: var(--accent-color);
   color: var(--primare-text-color);
@@ -72,25 +79,26 @@ a {
   height: 50px;
   left: 700px;
   top: 430px;
+  cursor: pointer;
 }
 .header-styles {
   color: var(--header-styles-color);
   font-weight: bold;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   list-style: none;
 }
 .header-tex {
   color: var(--contacts-text-color);
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .header {
   color: var(--header-styles-color);
   font-size: 36px;
-  line-height: 1, 17;
+  line-height: 1.17;
 }
 /* _________________team___________ */
 .team {
@@ -101,13 +109,13 @@ a {
   color: var(--header-styles-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 19;
+  line-height: 1.19;
 }
 .team-text {
   color: var(--contacts-text-color);
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 19;
+  line-height: 1.19;
 }
 
 /* portfolio */
@@ -119,12 +127,12 @@ a {
   color: var(--primare-text-color);
 }
 .button-act {
-  font-style: normal;
   font-weight: 500;
   text-align: center;
   font-size: 16px;
-  line-height: 1, 62;
+  line-height: 1.62;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 /* -----------all----------- */
 .services-all-header {
@@ -144,7 +152,7 @@ a {
 }
 .footer-content {
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
 }
 .footer-content-addres {
   color: var(--primare-text-color);
@@ -153,7 +161,7 @@ a {
 .footer-content-tel {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   text-decoration: none;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
@@ -161,8 +169,6 @@ a {
 .footer-content {
   font-style: normal;
 }
-.footer-content-addres:focus,
-.footer-content-addres:hover,
 .footer-content-mail:focus,
 .footer-content-mail:hover,
 .footer-content-tel:focus,
